@@ -9,9 +9,9 @@ def second_challenge
   #code your solution here!
   all_food = []
   groceries.each do |food_group|
-    all_food | food_group
+    puts food_group
   end
-  puts all_food
+  # puts all_food
 end
 
 second_challenge
