@@ -13,6 +13,7 @@ def second_challenge
       puts food
       all_food << food
     end
+    puts all_food
   end
   puts all_food
 end
