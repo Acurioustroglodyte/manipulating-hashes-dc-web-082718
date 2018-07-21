@@ -7,7 +7,14 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  all_food = []
+  groceries.each do |food_group|
+    food_group.each do |food|
+      puts food
+      all_food << food
+    end
+  end
+  puts all_food
 end
+
+second_challenge
