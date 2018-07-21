@@ -12,7 +12,7 @@ def second_challenge
     all_food << food
   end
   all_food.flatten
-  puts all_food
+  all_food
 end
 
 second_challenge
