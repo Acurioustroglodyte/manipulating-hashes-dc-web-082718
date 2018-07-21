@@ -11,7 +11,8 @@ def second_challenge
   groceries.each do |food_group, food|
     all_food << food
   end
-  # puts all_food
+  all_food.flatten
+  puts all_food
 end
 
 second_challenge
