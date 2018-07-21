@@ -11,6 +11,7 @@ def second_challenge
   groceries.each do |food_group|
     all_food << food_group
   end
+  puts all_food
 end
 
 second_challenge
