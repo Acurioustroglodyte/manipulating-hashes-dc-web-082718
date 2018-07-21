@@ -10,12 +10,10 @@ def second_challenge
   all_food = []
   groceries.each do |food_group|
     food_group.each do |food|
-      puts food
       all_food << food
     end
     puts all_food
   end
-  puts all_food
 end
 
 second_challenge
