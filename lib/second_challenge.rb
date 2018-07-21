@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
   all_food = []
-  groceries.each do |food_group|
-    puts food_group
+  groceries.each do |food_group, food|
+    all_food << food
   end
   # puts all_food
 end
